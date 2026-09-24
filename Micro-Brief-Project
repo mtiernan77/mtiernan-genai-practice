@@ -1,0 +1,9 @@
+Build a static, mobile-first web prototype called "Thing's" (a delivery app for college students in Chicago) using only index.html, style.css and script.js, with no frameworks or build step, so it can be hosted on GitHub Pages.
+
+Load shop data from a shops.json file with 9 shops: 6 locally owned shops near DePaul University's Lincoln Park campus tagged "Locally owned" and 3 chains tagged "Chain." Each shop has a name, tag, delivery fee, ETA, and 3 items with prices. Use placeholder data I will replace.
+
+Show the shops as a scrollable feed of cards in random order. Users can add items to a cart and tap "Place Order." Do not process payment. Then show: "Thing's is launching soon. Want this delivered for real?" with an optional .edu email field, then the question "Could you get this from this shop on DoorDash or Uber Eats today?" (Yes / No / Not sure) and a free-text "Why did you pick this shop?"
+
+On submit, POST one row to a Google Apps Script web app URL (stored as a constant at the top of script.js) with: timestamp, items, shops, tags, cart total, order completed (yes/no), email, and both answers. Also include the Apps Script code (Code.gs) that appends each POST as a row in a Google Sheet, plus short README steps for deploying it and turning on GitHub Pages.
+
+No login, maps, reviews, search or payments. Clean, student-friendly design; completable in under 2 minutes.
