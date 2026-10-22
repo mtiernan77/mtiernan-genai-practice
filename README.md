@@ -20,6 +20,7 @@ Nothing goes live until the owner approves. The AI drafts; the owner decides.
 
 - **Prototype link:** https://things-merchant-onboarding.replit.app
 - **Replit project:** https://replit.com/@mtiernan7/Things-Merchant-Onboarding
+- **Source code (GitHub):** https://github.com/mtiernan77/Things-Merchant-Onboarding (app code, pushed directly from Replit)
 
 To try it: click **Try sample: Clean café menu**, then **Extract items**, review the table, and click **Approve & publish**.
 
