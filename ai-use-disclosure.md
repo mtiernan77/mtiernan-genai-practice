@@ -17,7 +17,7 @@ Using AI to write code is separate from the product's own AI feature (menu readi
 
 - **Code review:** I gave Claude my GitHub repo, README and the peer feedback. It read `App.tsx` and pointed out two issues I hadn't spotted. The "Your original menu" panel was drawn from the AI's extracted items rather than the source text, so the side-by-side check could not catch a misread. A blank, flagged price could be ticked as checked and published as "Price to be confirmed".
 - **Code changes:** Claude wrote the edits to `App.tsx`: the demo-limit messages, the plain "what Things is" line, the source-text panel, the price/name checks, one-click sample menus, and the rule-based reader for pasted text. I pasted the file into Replit.
-- **Testing:** Claude ran the test cases against both the old and new versions in an automated browser and took the screenshots in `docs/screenshots/`. At my request, it then re-ran all seven cases on the live Replit site in my Chrome browser, and the results matched `revision.md`.
+- **Testing:** Claude ran the test cases against both the old and new versions in an automated browser and took the screenshots in `docs/screenshots/`. I ran all seven cases myself on the live Replit site, then asked Claude to re-run them in my Chrome browser as a double check. Both runs matched `revision.md`.
 - **Deployment help:** My first paste of the new code into Replit hit a package-install error, which Replit Agent fixed, but the project was left on the older version of `App.tsx`. Claude found this by checking the live site and the Replit preview, put the new file into the Replit editor (checked to be identical: same 352 lines, 0 errors), and confirmed the paste feature worked in the preview. I republished the site myself.
 - **Writing:** Claude drafted `revision.md`, this disclosure, the README update and my demo speaking notes. I edited them to match what I actually decided and saw.
 
@@ -46,7 +46,7 @@ Using AI to write code is separate from the product's own AI feature (menu readi
 
 ## Verification
 
-- **Checked:** All seven test cases were re-run on the live Replit build after the new `App.tsx` was published, and the results were compared with the table in `revision.md`. I checked the before/after screenshots against the old and new versions. I confirmed the code contains no API keys or real shop data.
+- **Checked:** I ran all seven test cases myself on the live Replit build after the new `App.tsx` was published, and compared the results with the table in `revision.md`. Claude's re-run in my browser was a second check, and it matched. I checked the before/after screenshots against the old and new versions. I confirmed the code contains no API keys or real shop data.
 - **Still needs checking:** Everything about real AI accuracy. Extraction, flags and price normalisation are prepared examples. The clarity improvements were judged from the screens, not by having a new person try them. The pain points from my owner interviews still need follow-up.
 
 ## AI inside the product
