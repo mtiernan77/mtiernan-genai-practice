@@ -61,7 +61,7 @@ I received two peer reviews. They're summarised here without names.
 
 ## 3. Evaluation
 
-**How I tested:** On November 17, 2026, each case was run on the live prototype (https://things-merchant-onboarding.replit.app) in Chrome, using only the built-in sample menus and made-up input (no real shop data). Claude ran the cases in my browser at my request, and I checked the results against this table (see the AI-use disclosure). The success criterion for each case was written before the run. "Before" results come from the First Working Slice version of the same code.
+**How I tested:** On November 17, 2026, each case was run on the live prototype (https://things-merchant-onboarding.replit.app) in Chrome, using only the built-in sample menus and made-up input (no real shop data). I ran every case myself, then asked Claude to re-run them in my browser as a double check. Both runs matched this table (see the AI-use disclosure). The success criterion for each case was written before the run. "Before" results come from the First Working Slice version of the same code.
 
 > AI results here are **simulated**, and pasted text is read by fixed rules, not AI. These tests evaluate whether the flow and the outputs are understandable and safe. They do **not** show how accurate a real model would be.
 
