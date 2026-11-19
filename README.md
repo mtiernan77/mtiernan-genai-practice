@@ -10,7 +10,7 @@ ESTM 60244 · Project Prototype Revision · Michael Tiernan
 
 ## Demo Video
 
-**Draft demo (2–3 min):** [ADD GOOGLE DRIVE LINK HERE]
+**Draft demo (2–3 min):**(https://drive.google.com/file/d/1WZGEW3vQUvYrKCUZOULMwGTPTCjLEyUH/view?usp=drive_link)
 Viewing access is granted to Emelia Hughes and Samuel Huang.
 
 ## How to open the prototype
