@@ -10,8 +10,12 @@ ESTM 60244 · Project Prototype Revision · Michael Tiernan
 
 ## Demo Video
 
-**Draft demo (2–3 min):** [Watch the demo on Google Drive](https://drive.google.com/file/d/1WZGEW3vQUvYrKCUZOULMwGTPTCjLEyUH/view?usp=drive_link)
-Access is granted to Emelia Hughes and Samuel Huang.
+The demo is in two parts. My recording software would not save a single video with both my narration and my screen, so I've provided both recordings:
+
+- **Narrated walkthrough:** [Watch on Google Drive](https://drive.google.com/file/d/1WZGEW3vQUvYrKCUZOULMwGTPTCjLEyUH/view?usp=drive_link). My spoken explanation of the product, the revision and the AI role. The screen did not record in this version.
+- **Screen recording:** [Watch on Google Drive](https://drive.google.com/file/d/1OMjNO_93K5cjxTE0RHwjrIaljmTPIgw2/view?usp=drive_link). The same walkthrough on screen, showing the central task from menu input to published storefront.
+
+Access to both is granted to Emelia Hughes and Samuel Huang.
 
 ## How to open the prototype
 
